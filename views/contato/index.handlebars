@@ -1,0 +1,56 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12 text-center mt-5">
+      <h1 class="text-uppercase">Contate-nos</h1>
+      <hr style="width: 20%">
+      <p class="lead">Qual pergunta ou dúvida deseja realizar?</p>
+      <div id="alert"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <form action="" method="post" id="formContato" id="contact-form">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="email" class="sr-only">Email</label>
+              <input type="email" class="form-control input-lg" id="email" name="email" placeholder="Email..." value=""
+                required>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="subject" class="sr-only">Subject</label>
+              <input type="text" class="form-control input-lg" id="subject" name="subject" placeholder="Assunto..."
+                value="" required>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group">
+              <label for="message" class="sr-only">Message</label>
+              <textarea style="margin-bottom: 5rem;" id="text" class="form-control input-lg" rows="10" id="message"
+                name="message" placeholder="Digite aqui sua dúvida ou pergunta" required></textarea>
+            </div>
+          </div>
+        </div>
+        <div id="showEmail" class="mt-1 mb-1"></div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group">
+              <button type="submit" value="Submit" style="margin-bottom: 5rem;"
+                class="btn btn-default btn-outline-success btn-lg btn-block botao_mensagem" id="send"
+                data-loading-text="Sending...">Enviar mensagem</button>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+
+</div>
