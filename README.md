@@ -2,7 +2,7 @@
 > Uma plataforma simples, para mostrar ao consumidor os serviços que são oferecidos pelo empreendedor.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-[![GitHub version](https://badge.fury.io/gh/peidrao%2Fpeidrao.github.io.svg)](https://badge.fury.io/gh/peidrao%2Fpeidrao.github.io)
+[![GitHub version](https://badge.fury.io/gh/peidrao%2Frepshop.svg)](https://badge.fury.io/gh/peidrao%2Frepshop)
 
 Primeiro trabalho realizado de modo autônomo. Com um maior trabalho no gerenciamento de e-mails. 
 Usando NODE.JS em todas as istâncias do código, desde o backend (que seria o mais usual) até o frontend.
@@ -28,12 +28,13 @@ localhost:8080
 ```
 
 ## Backend
-**Express:** Usada para criação de rotas. No projeto, foram usadas três:
+**Express:** [![npm version](https://badge.fury.io/js/express.svg)](https://badge.fury.io/js/express) Usada para criação de rotas. No projeto, foram usadas três
+
 - **/**:   _Rota inicinal._
 - **/sobre**: _Responsável para levar o usuário as informações sobre a empresa._
 - **/contato**: _Onde o usuário entraria em contato com a empresa através de um formulário de e-mail._
 
-**Handlebars:** Diferente de frameworks como _angular_, _react_ e tantos outros. Handlebars é um template engine. Vale acrescentar que ele tem uma performace bem melhor comparado ao _Mustache_. Ele é o que trabalha com toda a parte do frontend. Gera os arquivos a partir das rotas do express. 
+**Handlebars:**  [![npm version](https://badge.fury.io/js/handlebars.svg)](https://badge.fury.io/js/handlebars) Diferente de frameworks como _angular_, _react_ e tantos outros. Handlebars é um template engine. Vale acrescentar que ele tem uma performace bem melhor comparado ao _Mustache_. Ele é o que trabalha com toda a parte do frontend. Gera os arquivos a partir das rotas do express. 
 
 **Body Parser**: O body parser faz a “simples” conversão de arquivos que estão no corpo da minha requisição para vários formatos. Que no nosso caso pode ser um .json
 
