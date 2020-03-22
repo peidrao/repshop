@@ -3,17 +3,16 @@ const mailGun = require('nodemailer-mailgun-transport');
 
 const auth = {
   auth: {
-    api_key: '/',
-    domain: '/'
+    api_key: 'keymailgun',
+    domain: 'domain'
   }
 };
 
 const transport = nodemailer.createTransport(mailGun(auth));
-
 const sendMail = (subject, email, text, cb) => {
   const mailOption = {
     from: email,
-    to: 'seuemail@gmail.com',
+    to: 'emailquevaireceber@domini.com',
     subject: subject,
     text: text
   };

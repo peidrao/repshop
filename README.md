@@ -1,12 +1,13 @@
 # Reputação Verde
 > Uma plataforma simples, para mostrar ao consumidor os serviços que são oferecidos pelo empreendedor.
 
-[![GitHub version](https://badge.fury.io/gh/peidrao%2Frepshop.svg)](https://badge.fury.io/gh/peidrao%2Frepshop)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![GitHub version](https://badge.fury.io/gh/peidrao%2Fpeidrao.github.io.svg)](https://badge.fury.io/gh/peidrao%2Fpeidrao.github.io)
 
 Primeiro trabalho realizado de modo autônomo. Com um maior trabalho no gerenciamento de e-mails. 
 Usando NODE.JS em todas as istâncias do código, desde o backend (que seria o mais usual) até o frontend.
 
-![](./readme/img.png)
+![](teste.png)
 
 ## Instalação:
 
@@ -27,33 +28,28 @@ localhost:8080
 ```
 
 ## Backend
-**Express:** [![npm version](https://badge.fury.io/js/express.svg)](https://badge.fury.io/js/express) Usada para criação de rotas. No projeto, foram usadas três
-
+**Express:** Usada para criação de rotas. No projeto, foram usadas três:
 - **/**:   _Rota inicinal._
 - **/sobre**: _Responsável para levar o usuário as informações sobre a empresa._
 - **/contato**: _Onde o usuário entraria em contato com a empresa através de um formulário de e-mail._
 
-**Handlebars:**  [![npm version](https://badge.fury.io/js/handlebars.svg)](https://badge.fury.io/js/handlebars) Diferente de frameworks como _angular_, _react_ e tantos outros. Handlebars é um template engine. Vale acrescentar que ele tem uma performace bem melhor comparado ao _Mustache_. Ele é o que trabalha com toda a parte do frontend. Gera os arquivos a partir das rotas do express. 
+**Handlebars:** Diferente de frameworks como _angular_, _react_ e tantos outros. Handlebars é um template engine. Vale acrescentar que ele tem uma performace bem melhor comparado ao _Mustache_. Ele é o que trabalha com toda a parte do frontend. Gera os arquivos a partir das rotas do express. 
 
-**Body Parser**: [![npm version](https://badge.fury.io/js/body-parser.svg)](https://badge.fury.io/js/body-parser) O body parser faz a “simples” conversão de arquivos que estão no corpo da minha requisição para vários formatos. Que no nosso caso pode ser um .json
+**Body Parser**: O body parser faz a “simples” conversão de arquivos que estão no corpo da minha requisição para vários formatos. Que no nosso caso pode ser um .json
 
 Foram usados outras duas bibliotecas que fazem o gerenciamento dos e-mails que são enviados do site até a empresa.
 
-**Nodemailer:** [![npm version](https://badge.fury.io/js/nodemailer.svg)](https://badge.fury.io/js/nodemailer) Que de uma maneira bem simples, é o responsável por enviar os e-mails.
+**Nodemailer:** Que de uma maneira bem simples, é o responsável por enviar os e-mails.
 
-**Nodemailer Mailgun Transport:** [![npm version](https://badge.fury.io/js/nodemailer-mailgun-transport.svg)](https://badge.fury.io/js/nodemailer-mailgun-transport) Reponsável usando o MailGun de enviar os e-mails para qualquer gerenciando de e-mails (_Gmail, Yahoo, Outlook_)
+**Nodemailer Mailgun Transport:** Reponsável usando o MailGun de enviar os e-mails para qualquer gerenciando de e-mails (_Gmail, Yahoo, Outlook_)
 
 Existem outras bibliotecas do próprio node que foram usadas no decorrer desse projeto, contudo as mais impirtantes foram essas.
 
 ## Frontend
-[![bootstrap version](https://badge.fury.io/js/bootstrap.svg)](https://badge.fury.io/js/bootstrap)
 Na parte do frontend, foi preenchido com o **bootstrap** (pois o próprio cliente queria uma aplicação simplória). Salvo alguns efeitos como o  texto inicial Reputação Verde e o carousel de depoimentos que foram retirados da web. (O crédito dos mesmos estão no fim dessa documentação)
 
 
 ## Deploy
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-
 O deploy dessa aplicação foi feita pelo [Heroku](https://dashboard.heroku.com/), aplicação essa que não só suporta o Node.js como também várias outras. Usando ainda uma extensão PointDNS para fazer o link entre o domínio e heroku
 
 ## Domínio:

@@ -2,25 +2,24 @@ const express = require('express');
 const handlebars = require('express-handlebars');
 const path = require('path');
 const bodyParser = require('body-parser');
-// const session = require('express-session');
+const session = require('express-session');
 const sendMail = require('./config/email');
 
 const App = express();
 
-/* App.use(
+App.use(
   session({
     secret: 'repshop',
     resave: true,
     saveUninitialized: true
   })
 );
- */
 
 App.use(bodyParser.urlencoded({ extended: true }));
 App.use(bodyParser.json());
 
-/* App.use(express.urlencoded({ extended: false }));
-App.use(express.json()); */
+App.use(express.urlencoded({ extended: false }));
+App.use(express.json());
 
 // Handlebars
 App.engine(

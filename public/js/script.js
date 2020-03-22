@@ -30,7 +30,7 @@ $('form').on('submit', e => {
   $('#formContato').trigger('reset');
 });
 
-document.getElementById('send').addEventListener('click', () => {
+$('#enviarBotao').click(() => {
   document.getElementById('showEmail').innerHTML =
     '<div class="alert alert-success"> Email enviado com sucesso  <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span> </button> </div>';
 });
