@@ -7,7 +7,7 @@
 Primeiro trabalho realizado de modo autônomo. Com um maior trabalho no gerenciamento de e-mails. 
 Usando NODE.JS em todas as istâncias do código, desde o backend (que seria o mais usual) até o frontend.
 
-![](teste.png)
+![](/readme/img.png)
 
 ## Instalação:
 
