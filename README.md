@@ -28,7 +28,7 @@ localhost:8080
 ```
 
 ## Backend
-![](/readme/nodejs.png?650x250)
+![](/readme/nodejs.png)
 **Express:** Usada para criação de rotas. No projeto, foram usadas três:
 - **/**:   _Rota inicinal._
 - **/sobre**: _Responsável para levar o usuário as informações sobre a empresa._
