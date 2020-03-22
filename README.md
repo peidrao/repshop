@@ -28,25 +28,29 @@ localhost:8080
 ```
 
 ## Backend
-![](/readme/nodejs.png 665x300)
+![](/readme/nodejs.png?650x250)
 **Express:** Usada para criação de rotas. No projeto, foram usadas três:
 - **/**:   _Rota inicinal._
 - **/sobre**: _Responsável para levar o usuário as informações sobre a empresa._
 - **/contato**: _Onde o usuário entraria em contato com a empresa através de um formulário de e-mail._
 
+![](/readme/handlebars.png)
 **Handlebars:** Diferente de frameworks como _angular_, _react_ e tantos outros. Handlebars é um template engine. Vale acrescentar que ele tem uma performace bem melhor comparado ao _Mustache_. Ele é o que trabalha com toda a parte do frontend. Gera os arquivos a partir das rotas do express. 
 
 **Body Parser**: O body parser faz a “simples” conversão de arquivos que estão no corpo da minha requisição para vários formatos. Que no nosso caso pode ser um .json
 
 Foram usados outras duas bibliotecas que fazem o gerenciamento dos e-mails que são enviados do site até a empresa.
 
+![](/readme/nodemailer.png)
 **Nodemailer:** Que de uma maneira bem simples, é o responsável por enviar os e-mails.
 
+![](/readme/mailgun.png)
 **Nodemailer Mailgun Transport:** Reponsável usando o MailGun de enviar os e-mails para qualquer gerenciando de e-mails (_Gmail, Yahoo, Outlook_)
 
 Existem outras bibliotecas do próprio node que foram usadas no decorrer desse projeto, contudo as mais impirtantes foram essas.
 
 ## Frontend
+![](/readme/bootstrap.png)
 Na parte do frontend, foi preenchido com o **bootstrap** (pois o próprio cliente queria uma aplicação simplória). Salvo alguns efeitos como o  texto inicial Reputação Verde e o carousel de depoimentos que foram retirados da web. (O crédito dos mesmos estão no fim dessa documentação)
 
 ## Deploy
