@@ -3,9 +3,7 @@
 
 [![GitHub version](https://badge.fury.io/gh/peidrao%2Fpeidrao.github.io.svg)](https://badge.fury.io/gh/peidrao%2Fpeidrao.github.io)
 
-Primeiro trabalho realizado de modo autônomo. Com um maior trabalho no gerenciamento de e-mails. 
-Usando NODE.JS em todas as istâncias do código, desde o backend (que seria o mais usual) até o frontend.
-
+Essa aplicação web foi o meu primeiro trabalho realizado de forma autônoma (freelancer). O site foi construido em **NODE.JS** desde a parte do backend (rotas), como também no frontend (handlebars).
 
 ![](/readme/img.png)
 
@@ -37,7 +35,7 @@ localhost:8080
 
 ![](/readme/handlebars.png)
 
-**Handlebars:** Diferente de frameworks como _angular_, _react_ e tantos outros. Handlebars é um template engine. Vale acrescentar que ele tem uma performace bem melhor comparado ao _Mustache_. Ele é o que trabalha com toda a parte do frontend. Gera os arquivos a partir das rotas do express. 
+**Handlebars:** Diferente de frameworks como _angular_, _react_ e tantos outros. Handlebars é um template engine. Vale acrescentar que ele tem uma performace bem melhor comparado ao _Mustache_. Ele é o que trabalha com toda a parte do frontend. Gera os arquivos a partir das rotas do express.
 
 **Body Parser**: O body parser faz a “simples” conversão de arquivos que estão no corpo da minha requisição para vários formatos. Que no nosso caso pode ser um .json
 
@@ -67,7 +65,7 @@ O deploy dessa aplicação foi feita pelo [Heroku](https://dashboard.heroku.com/
 
 ## Agradecimentos finais
 Esse site não seria construindo sem meu conhecimento da faculdade (mentira esquece essa parte).
-Graças ao curso ministrado pelo [Victor Lima](https://www.youtube.com/channel/UC_issB-37g9lwfAA37fy2Tgs) consegui fazer toda essa aplicação, claro que, muitas outra s incrementações foram feitas por outras fontes, mas a base de toda aplicação foi feita a través do conhecimento que adquiri de suas aulas no YouTube e de graça. 
+Graças ao curso ministrado pelo [Victor Lima](https://www.youtube.com/channel/UC_issB-37g9lwfAA37fy2Tgs) consegui fazer toda essa aplicação, claro que, muitas outra s incrementações foram feitas por outras fontes, mas a base de toda aplicação foi feita a través do conhecimento que adquiri de suas aulas no YouTube e de graça.
 
 ## Contribuia
 
