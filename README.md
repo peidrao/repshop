@@ -1,11 +1,11 @@
 # Reputação Verde
 > Uma plataforma simples, para mostrar ao consumidor os serviços que são oferecidos pelo empreendedor.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 [![GitHub version](https://badge.fury.io/gh/peidrao%2Fpeidrao.github.io.svg)](https://badge.fury.io/gh/peidrao%2Fpeidrao.github.io)
 
 Primeiro trabalho realizado de modo autônomo. Com um maior trabalho no gerenciamento de e-mails. 
 Usando NODE.JS em todas as istâncias do código, desde o backend (que seria o mais usual) até o frontend.
+
 
 ![](/readme/img.png)
 
@@ -28,6 +28,7 @@ localhost:8080
 ```
 
 ## Backend
+![](/readme/nodejs.png 665x300)
 **Express:** Usada para criação de rotas. No projeto, foram usadas três:
 - **/**:   _Rota inicinal._
 - **/sobre**: _Responsável para levar o usuário as informações sobre a empresa._
@@ -48,8 +49,8 @@ Existem outras bibliotecas do próprio node que foram usadas no decorrer desse p
 ## Frontend
 Na parte do frontend, foi preenchido com o **bootstrap** (pois o próprio cliente queria uma aplicação simplória). Salvo alguns efeitos como o  texto inicial Reputação Verde e o carousel de depoimentos que foram retirados da web. (O crédito dos mesmos estão no fim dessa documentação)
 
-
 ## Deploy
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 O deploy dessa aplicação foi feita pelo [Heroku](https://dashboard.heroku.com/), aplicação essa que não só suporta o Node.js como também várias outras. Usando ainda uma extensão PointDNS para fazer o link entre o domínio e heroku
 
 ## Domínio:
